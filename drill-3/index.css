@@ -1,0 +1,65 @@
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#top {
+    background-color: #D7D7D7;
+    padding: 20px;
+}
+
+#top div {
+    background-color: #6A8CD9;
+    height: 75px;
+    width: 75px;
+}
+
+#textDiv {
+    padding: 50px;
+}
+
+.bot {
+    height: 200px;
+}
+
+#blue {
+    background-color: #6B8CD9;
+}
+
+#teal {
+    background-color: #8CE8C1;
+}
+
+#green {
+    background-color: #C3E892;
+}
+
+#yellow {
+    background-color: #EFE85C;
+}
+
+#help {
+    position: fixed;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    right: 15px;
+    bottom: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}

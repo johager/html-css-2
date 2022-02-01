@@ -1,0 +1,32 @@
+body {
+    background-color: #D8D8D8;
+}
+
+#top {
+    background-color: #444444;
+    height: 110px;
+}
+
+#bottom {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#center-top {
+    position: absolute;
+    background-color: #EFEFEF;
+    top: 0px;
+    left: 0px;
+    height: 2000px;
+    width: 100%;
+}
+
+#center-bottom {
+    position: fixed;
+    background-color: #222222;
+    bottom: 0px;
+    height: 50px;
+    width: 500px;
+}
