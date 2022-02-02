@@ -70,16 +70,41 @@ nav a:hover {
 }
 
 section {
-    color: #858585;
+    color: #FFFFFF;
     box-sizing: content-box;
     max-width: 1200px;
+    /* padding: 500px 50px 500px 50px; */
     padding: 500px 50px 500px 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
     margin: 150px auto 0px auto;
 }
 
 p {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.recentLaunchHead {
+    font-weight: 100;
+    
+}
+
+.recentLaunchName {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#cosmo-skymed {
+    background-image: url(cosmo-skymed_launch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    height: 1000px;
+    width: 100%;
+    margin-top: -150px;
 }
 
 .button {
