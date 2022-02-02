@@ -9,6 +9,7 @@ nav {
     /* background-color: #333333; */
     top: 0px;
     width: 100%;
+    z-index: 99;
     padding-top: 50px;
 }
 
@@ -70,14 +71,21 @@ nav a:hover {
 }
 
 section {
+    z-index: 0;
     color: #FFFFFF;
     box-sizing: content-box;
-    max-width: 1200px;
-    /* padding: 500px 50px 500px 50px; */
-    padding: 500px 50px 500px 50px;
-    /* padding-left: 50px;
-    padding-right: 50px; */
-    margin: 150px auto 0px auto;
+}
+
+.firstSection {
+    margin-top: -150px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 p {
@@ -85,26 +93,31 @@ p {
     margin-bottom: 20px;
 }
 
-.recentLaunchHead {
-    font-weight: 100;
-    
+.launchInfoWrapper {
+    position: relative;
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.recentLaunchName {
+.launchInfo {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    height: 250px;
+}
+
+.launchHead {
+    font-weight: 100;
+}
+
+.launchName {
     font-size: 2.2em;
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 30px;
-}
-
-#cosmo-skymed {
-    background-image: url(cosmo-skymed_launch.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 1000px;
-    height: 1000px;
-    width: 100%;
-    margin-top: -150px;
 }
 
 .button {
