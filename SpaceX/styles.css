@@ -5,32 +5,61 @@ body {
 
 .content {
     max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 
 nav {
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     font-size: 0.9em;
     /* background-color: #333333; */
     top: 0px;
+    width: 100%;
     padding-top: 50px;
 }
 
-nav div {
-    display: inline;
-    color: white;
+.navWrapper {
+    position: relative;
+}
+
+.navFlex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     /* background-color: #555555; */
-    padding-bottom: 5px;
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navFlex img {
+    margin-right: 30px;
+    margin-bottom: 11px;
+}
+
+.navFlex div {
+    display: inline;
+    /* background-color: #777777; */
     margin-right: 30px;
 }
 
 .navRight {
-    /* background-color: #C2C2C2; */
+    position: absolute;
+    /* background-color: #777777; */
+    text-align: right;
+    top: 14px;
+    right: 50px;
     width: 200px;
+}
+
+.navRight div {
+    position: inline;
+    /* background-color: #C2C2C2; */
+    margin-left: 30px;
 }
 
 nav a:link, nav a:visited, nav a:active {
@@ -55,6 +84,31 @@ section {
 p {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 0px 20px 0px;
+    margin-top: 30px;
+    border: 2px solid #FFFFFF;
+}
+
+.button a {
+    padding: 20px 50px 20px 50px;
+}
+
+.button a:link, .button a:visited, .button a:active {
+    color: #FFFFFF;
+    background-color: transparent;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 footer {
